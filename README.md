@@ -30,9 +30,11 @@ The dataset contains **500 observations** with the following variables:
 
 ---
 
-## Understanding the Data (EDA)
+## Exploratory Data Analysis
 
 I started by exploring the dataset to understand general patterns.
+<img width="835" height="563" alt="EDAvisuals" src="https://github.com/user-attachments/assets/4065a5fd-ffa0-4856-ae10-4e274791b8b7" />
+
 
 ### What stood out:
 Firms vary a lot in terms of revenue and expenses
