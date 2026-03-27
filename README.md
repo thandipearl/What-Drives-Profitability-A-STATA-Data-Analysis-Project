@@ -30,7 +30,7 @@ The dataset contains **500 observations** with the following variables:
 
 ---
 
-## Step 1: Understanding the Data (EDA)
+## Understanding the Data (EDA)
 
 I started by exploring the dataset to understand general patterns.
 
@@ -49,7 +49,7 @@ Innovation seems to help, while too much debt hurts.
 
 ---
 
-## Step 2: Regression Analysis
+## Regression Analysis
 
 ### Basic Model
 I first ran a regression using the raw variables.
@@ -80,7 +80,7 @@ It’s not about how big a company is, it’s about how efficient it is.
 
 ---
 
-## Step 3: Model Diagnostics
+## Model Diagnostics
 
 ### Multicollinearity (VIF Test)
 No serious issues detected
@@ -98,7 +98,7 @@ This ensures the results are statistically valid.
 
 ---
 
-## Step 4: Panel Data Analysis
+## Panel Data Analysis
 
 Since the dataset includes firms over time, I used panel data techniques.
 
