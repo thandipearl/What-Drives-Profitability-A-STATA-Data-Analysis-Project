@@ -1,6 +1,6 @@
-# 📊 STATA Project: What Really Drives Firm Profitability?
+# STATA Project: What Really Drives Firm Profitability?
 
-## 👋 About This Project
+## About This Project
 I built this project to answer a simple but important question:
 
 **What actually makes a company profitable?**
@@ -9,7 +9,7 @@ Using STATA, I analyzed firm-level financial and operational data to uncover the
 
 ---
 
-## 🎯 Objective
+## Objective
 The goal of this analysis is to:
 
 - Identify which factors influence firm profitability
@@ -18,7 +18,7 @@ The goal of this analysis is to:
 
 ---
 
-## 📁 Dataset
+## Dataset
 The dataset contains **500 observations** with the following variables:
 
 - `revenue` – Total firm revenue  
@@ -30,7 +30,7 @@ The dataset contains **500 observations** with the following variables:
 
 ---
 
-## 🔍 Step 1: Understanding the Data (EDA)
+## Step 1: Understanding the Data (EDA)
 
 I started by exploring the dataset to understand general patterns.
 
@@ -44,14 +44,14 @@ I started by exploring the dataset to understand general patterns.
 - Higher debt tends to reduce profitability
 - R&D spending shows a positive relationship with profit
 
-👉 **Early takeaway:**  
+**Early takeaway:**  
 Innovation seems to help, while too much debt hurts.
 
 ---
 
-## 📉 Step 2: Regression Analysis
+## Step 2: Regression Analysis
 
-### 🔹 Basic Model
+### Basic Model
 I first ran a regression using the raw variables.
 
 **What I found:**
@@ -60,11 +60,11 @@ I first ran a regression using the raw variables.
 - Debt → negatively impacts profitability  
 - R&D → positively impacts profitability  
 
-👉 This confirms that both **cost control and investment decisions matter**.
+This confirms that both **cost control and investment decisions matter**.
 
 ---
 
-### 🔹 Improved Model (Feature Engineering)
+### Improved Model (Feature Engineering)
 I then created better variables like:
 - Revenue per employee (efficiency)
 - Debt ratio
@@ -75,74 +75,74 @@ I then created better variables like:
 - R&D remained consistently positive
 - Number of employees became less important
 
-👉 **Big insight:**  
+**Big insight:**  
 It’s not about how big a company is — it’s about how efficient it is.
 
 ---
 
-## ⚠️ Step 3: Model Diagnostics
+## Step 3: Model Diagnostics
 
 ### Multicollinearity (VIF Test)
 - No serious issues detected
 
-👉 The model is stable and reliable.
+The model is stable and reliable.
 
 ---
 
 ### Heteroskedasticity Test
 - Heteroskedasticity was present
 
-✅ I fixed this using **robust standard errors**
+I fixed this using **robust standard errors**
 
-👉 This ensures the results are statistically valid.
+This ensures the results are statistically valid.
 
 ---
 
-## 📊 Step 4: Panel Data Analysis
+## Step 4: Panel Data Analysis
 
 Since the dataset includes firms over time, I used panel data techniques.
 
 ### Fixed vs Random Effects:
 - The **Hausman test recommended Fixed Effects**
 
-👉 This means:
+This means:
 Each firm has unique characteristics (like management or strategy) that affect profitability.
 
 ---
 
-## 💡 Key Insights (The Real Value)
+## Key Insights (The Real Value)
 
-### ✅ 1. Efficiency > Size
+### 1. Efficiency > Size
 - Revenue per employee is the strongest driver of profit  
-👉 Companies should focus on productivity, not just growth
+ Companies should focus on productivity, not just growth
 
 ---
 
-### ✅ 2. Debt Can Hurt Performance
+### 2. Debt Can Hurt Performance
 - Higher debt ratios reduce profitability  
-👉 Firms should be careful with borrowing
+Firms should be careful with borrowing
 
 ---
 
-### ✅ 3. Innovation Pays Off
+### 3. Innovation Pays Off
 - R&D spending consistently improves profit margins  
-👉 Investing in innovation is worth it
+Investing in innovation is worth it
 
 ---
 
-### ✅ 4. Costs Still Matter
+### 4. Costs Still Matter
 - Expenses have a direct negative impact  
-👉 Cost control is critical
+Cost control is critical
 
 ---
 
-### ✅ 5. Internal Factors Matter More Than You Think
+### 5. Internal Factors Matter More Than You Think
 - Firm-specific effects are significant  
-👉 Strategy and management play a big role
+Strategy and management play a big role
 
 ---
 
-## 🧰 Tools & Skills Demonstrated
+## Tools & Skills Demonstrated
 
 - Data Cleaning (STATA)
 - Exploratory Data Analysis
@@ -157,17 +157,17 @@ Each firm has unique characteristics (like management or strategy) that affect p
 
 ---
 
-## 🚀 Final Thoughts
+## Final Thoughts
 
 This project really showed me how powerful STATA is when it comes to econometric analysis.
 
 More importantly, it highlighted something simple but powerful:
 
-👉 **Profitability is driven by efficiency, smart investment, and financial discipline.**
+**Profitability is driven by efficiency, smart investment, and financial discipline.**
 
 ---
 
-## 📌 What’s Next?
+## What’s Next?
 I’m currently building more projects in:
 - Data Analytics
 - Financial Analysis
